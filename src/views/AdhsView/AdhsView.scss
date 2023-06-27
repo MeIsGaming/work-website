@@ -1,0 +1,60 @@
+.p-button {
+  margin-right: 0.5rem;
+  padding: 0 1rem 0 0;
+}
+
+.adhsclicker .p-button i {
+  margin-right: 1rem;
+  padding: 1rem;
+}
+
+//OWN  BUTTONS
+
+//Variables:
+
+$text-color: #fff;
+
+$adhsclicker-primary: #009ea3; //light color
+$adhsclicker-secondary: #990073; //dark color
+
+//Buttons:
+
+//adhsclicker button
+
+.adhsclicker .p-button.adhsclicker {
+  background: linear-gradient(
+    to left,
+    $adhsclicker-primary 50%,
+    $adhsclicker-secondary 50%
+  );
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.5s ease-out;
+  color: $text-color;
+  border-color: $adhsclicker-secondary;
+}
+
+.adhsclicker .p-button.adhsclicker:hover {
+  background-position: left bottom;
+}
+
+.adhsclicker .p-button.adhsclicker i {
+  background-color: $adhsclicker-secondary;
+}
+
+.adhsclicker .p-button.adhsclicker:focus {
+  box-shadow: 0 0 0 1px $adhsclicker-primary;
+}
+
+//HIER NIMMER
+
+@media screen and (max-width: 640px) {
+  .p-button {
+    margin-bottom: 0.5rem;
+
+    &:not(.p-button-icon-only) {
+      display: flex;
+      width: 100%;
+    }
+  }
+}

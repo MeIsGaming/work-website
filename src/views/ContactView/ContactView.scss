@@ -1,0 +1,310 @@
+.buttons a {
+  text-decoration: none;
+}
+
+.p-button {
+  margin-right: 0.5rem;
+  padding: 0 1rem 0 0;
+}
+
+.buttons .p-button i {
+  margin-right: 1rem;
+  padding: 1rem;
+}
+
+//OWN  BUTTONS
+
+//Variables:
+
+$text-color: #fff;
+
+$whatsapp-primary: #25d366; //light color
+$whatsapp-secondary: #1da34e; //dark color
+
+$youtube-primary: #ff0000;
+$youtube-secondary: #a70000;
+
+$facebook-primary: #3b5998;
+$facebook-secondary: #2f487e;
+
+$twitter-primary: #1da1f2;
+$twitter-secondary: #1581c5;
+
+$discord-primary: #7289d9;
+$discord-secondary: #5267b3;
+
+$threema-primary: #333333;
+$threema-secondary: #292929;
+
+$telefon-primary: #0ca120;
+$telefon-secondary: #0b8b1d;
+
+$e-mail-primary: #9d3df1;
+$e-mail-secondary: #8328d4;
+
+$telegram-primary: #0088cc;
+$telegram-secondary: #016ba0;
+
+//Buttons:
+
+//Whatsapp button
+
+.buttons .p-button.whatsapp {
+  background: linear-gradient(
+    to left,
+    $whatsapp-primary 50%,
+    $whatsapp-secondary 50%
+  );
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.5s ease-out;
+  color: $text-color;
+  border-color: $whatsapp-secondary;
+}
+
+.buttons .p-button.whatsapp:hover {
+  background-position: left bottom;
+}
+
+.buttons .p-button.whatsapp i {
+  background-color: $whatsapp-secondary;
+}
+
+.buttons .p-button.whatsapp:focus {
+  box-shadow: 0 0 0 1px $whatsapp-primary;
+}
+
+//Youtube button
+
+.buttons .p-button.youtube {
+  background: linear-gradient(
+    to left,
+    $youtube-primary 50%,
+    $youtube-secondary 50%
+  );
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.5s ease-out;
+  color: #fff;
+  border-color: $youtube-secondary;
+}
+
+.buttons .p-button.youtube:hover {
+  background-position: left bottom;
+}
+
+.buttons .p-button.youtube i {
+  background-color: $youtube-secondary;
+}
+
+.buttons .p-button.youtube:focus {
+  box-shadow: 0 0 0 1px $youtube-primary;
+}
+
+//Facebook button
+
+.buttons .p-button.facebook {
+  background: linear-gradient(
+    to left,
+    $facebook-primary 50%,
+    $facebook-secondary 50%
+  );
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.5s ease-out;
+  color: #fff;
+  border-color: $facebook-secondary;
+}
+
+.buttons .p-button.facebook:hover {
+  background-position: left bottom;
+}
+
+.buttons .p-button.facebook i {
+  background-color: $facebook-secondary;
+}
+
+.buttons .p-button.facebook:focus {
+  box-shadow: 0 0 0 1px $facebook-primary;
+}
+
+//Twitter button
+
+.buttons .p-button.twitter {
+  background: linear-gradient(
+    to left,
+    $twitter-primary 50%,
+    $twitter-secondary 50%
+  );
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.5s ease-out;
+  color: #fff;
+  border-color: $twitter-secondary;
+}
+
+.buttons .p-button.twitter:hover {
+  background-position: left bottom;
+}
+
+.buttons .p-button.twitter i {
+  background-color: $twitter-secondary;
+}
+
+.buttons .p-button.twitter:focus {
+  box-shadow: 0 0 0 1px $twitter-primary;
+}
+
+//Discord button
+
+.buttons .p-button.discord {
+  background: linear-gradient(
+    to left,
+    $discord-primary 50%,
+    $discord-secondary 50%
+  );
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.5s ease-out;
+  color: #fff;
+  border-color: $discord-secondary;
+}
+
+.buttons .p-button.discord:hover {
+  background-position: left bottom;
+}
+
+.buttons .p-button.discord i {
+  background-color: $discord-secondary;
+}
+
+.buttons .p-button.discord:focus {
+  box-shadow: 0 0 0 1px $discord-primary;
+}
+
+//Telefon button
+
+.buttons .p-button.telefon {
+  background: linear-gradient(
+    to left,
+    $telefon-primary 50%,
+    $telefon-secondary 50%
+  );
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.5s ease-out;
+  color: #fff;
+  border-color: $telefon-secondary;
+}
+
+.buttons .p-button.telefon:hover {
+  background-position: left bottom;
+}
+
+.buttons .p-button.telefon i {
+  background-color: $telefon-secondary;
+}
+
+.buttons .p-button.telefon:focus {
+  box-shadow: 0 0 0 1px $telefon-primary;
+}
+
+//e-mail buttons
+
+.buttons .p-button.e-mail {
+  background: linear-gradient(
+    to left,
+    $e-mail-primary 50%,
+    $e-mail-secondary 50%
+  );
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.5s ease-out;
+  color: #fff;
+  border-color: $e-mail-secondary;
+}
+
+.buttons .p-button.e-mail:hover {
+  background-position: left bottom;
+}
+
+.buttons .p-button.e-mail i {
+  background-color: $e-mail-secondary;
+}
+
+.buttons .p-button.e-mail:focus {
+  box-shadow: 0 0 0 1px $e-mail-primary;
+}
+
+//telegram buttons
+
+.buttons .p-button.telegram {
+  background: linear-gradient(
+    to left,
+    $telegram-primary 50%,
+    $telegram-secondary 50%
+  );
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.5s ease-out;
+  color: #fff;
+  border-color: $telegram-secondary;
+}
+
+.buttons .p-button.telegram:hover {
+  background-position: left bottom;
+}
+
+.buttons .p-button.telegram i {
+  background-color: $telegram-secondary;
+}
+
+.buttons .p-button.telegram:focus {
+  box-shadow: 0 0 0 1px $telegram-primary;
+}
+
+//threema buttons
+
+.buttons .p-button.threema {
+  background: linear-gradient(
+    to left,
+    $threema-primary 50%,
+    $threema-secondary 50%
+  );
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.5s ease-out;
+  color: #fff;
+  border-color: $threema-secondary;
+}
+
+.buttons .p-button.threema:hover {
+  background-position: left bottom;
+}
+
+.buttons .p-button.threema i {
+  background-color: $threema-secondary;
+}
+
+.buttons .p-button.threema:focus {
+  box-shadow: 0 0 0 1px $threema-primary;
+}
+
+//HIER NIMMER
+
+@media screen and (max-width: 640px) {
+  .p-button {
+    margin-bottom: 0.5rem;
+
+    &:not(.p-button-icon-only) {
+      display: flex;
+      width: 100%;
+    }
+  }
+
+  .p-buttonset {
+    .p-button {
+      margin-bottom: 0;
+    }
+  }
+}
